@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 from streamlit_lottie import st_lottie
+from streamlit_option_menu import option_menu
 def app():
     # Function to load Lottie animation from URL
     def load_lottie_url(url):
